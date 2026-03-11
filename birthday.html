@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Mannan ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section id="birthday">
+
+<h1>Happy Birthday Mannan ❤️</h1>
+
+<div id="cake" onclick="cutCake()">🎂</div>
+
+<p>Click the cake to start the celebration 🎉</p>
+
+<!-- Birthday music -->
+<iframe id="song"
+width="0"
+height="0"
+src="https://www.youtube.com/embed/90w2RegGf9w?autoplay=0"
+allow="autoplay">
+</iframe>
+
+</section>
+
+
+<!-- Truth or Dare -->
+
+<section id="games" class="hidden">
+
+<h2>Couple Games 🎮</h2>
+
+<button onclick="truth()">Truth</button>
+<button onclick="dare()">Dare</button>
+
+<p id="gameResult"></p>
+
+</section>
+
+
+<!-- Couple Quiz -->
+
+<section id="quiz" class="hidden">
+
+<h2>Couple Quiz 💕</h2>
+
+<div class="question">
+
+<p>Who said "I love you" first?</p>
+
+<button onclick="checkAnswer('correct')">You</button>
+<button onclick="checkAnswer('wrong')">Me</button>
+
+</div>
+
+<div class="question">
+
+<p>Our favorite thing to do together?</p>
+
+<button onclick="checkAnswer('correct')">Talking for hours</button>
+<button onclick="checkAnswer('wrong')">Sleeping</button>
+
+</div>
+
+<div class="question">
+
+<p>Who is more dramatic?</p>
+
+<button onclick="checkAnswer('correct')">Me 😆</button>
+<button onclick="checkAnswer('wrong')">You</button>
+
+</div>
+
+<p id="quizResult"></p>
+
+</section>
+
+
+<!-- Hearts Section -->
+
+<section id="hearts" class="hidden">
+
+<h2>You + Me = Forever ❤️</h2>
+
+<div class="heart">❤️</div>
+<div class="heart">❤️</div>
+<div class="heart">❤️</div>
+
+</section>
+
+
+<!-- Love Letter -->
+
+<section id="letter" class="hidden">
+
+<h2>Love Letter 💌</h2>
+
+<button onclick="openLetter()">Open Letter</button>
+
+<p id="loveMessage"></p>
+
+</section>
+
+
+<!-- Gift -->
+
+<section id="gift" class="hidden">
+
+<h2>Birthday Gift 🎁</h2>
+
+<button onclick="openGift()">Open Your Gift</button>
+
+<p id="giftMessage"></p>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
